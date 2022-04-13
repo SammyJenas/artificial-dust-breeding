@@ -43,6 +43,7 @@ function windowResized() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   pixelDensity(1);
+  noCursor();
   img = createImage(imgW, imgH);
   plaster.resize(imgW, imgH);
   CPU.resize(imgW, imgH);
